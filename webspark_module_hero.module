@@ -1,0 +1,18 @@
+<?php
+
+function webspark_module_hero_theme($existing, $type, $theme, $path){
+
+  return [
+    'webspark_hero' => [
+      'variables' => [
+        'hero_size' => NULL,
+        'hero_title' => NULL,
+        'hero_image' => NULL,
+        'hero_body' => NULL,
+        'hero_link_url' => NULL,
+        'hero_link_text' => NULL,
+        'label' => NULL,
+      ],
+    ],
+  ];
+}

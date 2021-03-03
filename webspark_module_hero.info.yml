@@ -1,0 +1,7 @@
+name: WebsSpark Hero Block
+description: Creates a custom hero block type
+package: WebSpark
+
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
